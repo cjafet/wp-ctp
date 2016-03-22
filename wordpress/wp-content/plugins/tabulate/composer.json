@@ -1,0 +1,22 @@
+{
+	"name": "tabulate/tabulate",
+	"description": "WordPress plugin for managing relational tabular data.",
+	"license": "GPL-2.0+",
+	"autoload": {
+		"psr-4": {
+			"WordPress\\Tabulate\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [ "tests/TestBase.php" ]
+	},
+	"require": {
+		"twig/twig": "1.*",
+		"yohang/calendr": "1.*",
+		"phayes/geophp": "1.*"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "dev-master",
+		"wp-coding-standards/wpcs": "dev-develop"
+	}
+}
